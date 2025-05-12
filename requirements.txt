@@ -1,0 +1,16 @@
+numpy
+pandas
+Flask
+python-dotenv
+python-docx
+docx
+pypdf2
+sentencepiece
+transformers
+hnswlib
+requests
+bs4
+docx
+youtube_transcript_api
+torch -cpu
+# -e .
