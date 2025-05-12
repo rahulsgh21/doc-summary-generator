@@ -1,7 +1,6 @@
 # Document-Summary-Generator
 
-**Document-Summary-Generator** is a repository for the Science and Technology Council Hackathon 2023, IIT Kanpur.
-This repository contains our approach towards the problem statement **Generative AI for Impact**. We tried to implement a simple web page that can receive text from pdf,text,doc files, users or web pages and generate summary of the text using **Longformer Encoder-Decoder (LED)** model. The user can ask for different summary lengths. Moreover, we included a keyword search feature that enables users to ask questions about the text or generate summaries based on some keywords present in the text. The detailed documentation and user-guide can be found in the docs folder.
+This repository contains the approach towards implementing a simple web page that can receive text from pdf,text,doc files, users or web pages and generate summary of the text using **Longformer Encoder-Decoder (LED)** model. The user can ask for different summary lengths. Moreover, we included a keyword search feature that enables users to ask questions about the text or generate summaries based on some keywords present in the text. The detailed documentation and user-guide can be found in the docs folder.
 
 ## Installation
 ### Requirements
@@ -11,8 +10,8 @@ This repository contains our approach towards the problem statement **Generative
 ### Setup Project
 1. Fork the repository.
 2. Clone the repository. In your terminal, type:
-  <pre><code>git clone https://github.com/your-username/Document-Summary-Generator.git</code></pre>
-3. Navigate to the repository directory : <code>cd Document-Summary-Generator</code>
+  <pre><code>git clone https://github.com/your-username/doc-summary-generator.git</code></pre>
+3. Navigate to the repository directory : <code>cd doc-summary-generator</code>
 4. Setup Python Virtual Environment : <code> virtualenv venv </code>
 5. Activate the virtual environment. On Windows , <code>venv\Scripts\activate.bat</code>. On Linux/macOS , <code>source venv/bin/activate</code>.
 5. Install the required modules : <code> pip install -r requirements.txt</code>
@@ -29,11 +28,3 @@ This repository contains our approach towards the problem statement **Generative
 ### Snapshot of the project
 ![image](https://github.com/Attention-is-All-We-Need/Document-Summary-Generator/assets/95437455/abb2019c-deb4-4e21-b400-c8a81fb1301c)
 It can summarize Webpages, and PDF Files including research articles, for you!
-
-# The team members are :
-1. Anwesh Saha (https://github.com/Anweshbyte)
-2. Arindom Bora (https://github.com/AriBora)
-3. Ajay Sankar Makkena (https://github.com/mas622424)
-4. Khush Khandelwal (https://github.com/khandelwalkhush05)
-5. Vineet Kumar (https://github.com/Vineet-the-git)
-6. Shreyash Nallawar (https://github.com/NShreyash)
